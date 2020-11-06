@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1052767257681",
+    "firebase_url": "https://williamhvandroid.firebaseio.com",
+    "project_id": "williamhvandroid",
+    "storage_bucket": "williamhvandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052767257681:android:6cf552917e415caea92470",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052767257681-cdiivvhiab69iqkhotg026a30q92lcrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1jLGhIL4wNK442gd13rKpfXDCbxH_WCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052767257681-cdiivvhiab69iqkhotg026a30q92lcrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

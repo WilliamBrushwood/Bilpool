@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="location">
+        <item>TROLLÄTTAN</item>
+        <item>VÄNERSBORG</item>
+        <item>UDDEVALLA</item>
+        <item>GÖTEBORG</item>
+    </string-array>
+
+</resources>

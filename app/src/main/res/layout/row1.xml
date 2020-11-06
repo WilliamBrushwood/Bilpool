@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:backgroundTint="@android:color/holo_orange_light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        >
+        <TextView
+            android:id="@+id/car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="car:"
+            android:layout_alignParentTop="true"
+        >
+
+        </TextView>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Date:"
+
+            android:layout_below="@+id/car">
+
+        </TextView>
+        <TextView
+            android:id="@+id/hours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Hours:"
+            android:layout_alignParentStart="true"
+
+            android:layout_below="@+id/date">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Location:"
+
+            android:layout_below="@+id/hours">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/pris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Price:"
+
+            android:layout_below="@+id/location">
+
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
